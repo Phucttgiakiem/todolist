@@ -1,0 +1,38 @@
+.Editpage-wapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: calc(100vh - 5rem);
+    width: 100vw;
+    padding: 0 10rem;
+    box-sizing: border-box;
+}
+.Editpage-title {
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 2rem 0;
+}
+.Editpage-title h1 {
+    margin: 0;
+}
+.Editpage-content{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+    .Editpage-wapper {
+        padding: 0 3rem;
+    }
+}
+@media screen and (max-width: 767px){
+    .Editpage-wapper {
+        padding: 0 1rem;
+    }
+}
